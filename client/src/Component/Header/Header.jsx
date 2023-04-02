@@ -1,4 +1,5 @@
 import { AppBar, Toolbar,Box, styled,Typography } from "@mui/material";
+import Search from "./Search";
 const HeaderStyle = styled(AppBar)`
 background:#2874f0;
 height:55px;
@@ -33,6 +34,7 @@ const Header = () => {
 <plusImage src={subURL} alt="sublogo"/>
 </Box>
 </Component>
+<Search/>
 </Toolbar>
 </HeaderStyle>
   );
