@@ -2,11 +2,9 @@
   "name": "mkg-publication",
   "version": "1.0.0",
   "description": "",
- 
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-   
     "test": "nodemon './src/index.js"
   },
   "repository": {
