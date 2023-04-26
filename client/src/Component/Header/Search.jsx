@@ -18,10 +18,9 @@ padding:5px;
 `
 const Search=()=>{
 return(
-
-    <SearchContainer>
-    <InputSearchBase placeholder="search for products , brands and more....."/>
-    <SWrapper>
+ <SearchContainer>
+<InputSearchBase placeholder="search for products , brands and more....."/>
+<SWrapper>
     <SearchIcon/>
     </SWrapper>
     </SearchContainer>
