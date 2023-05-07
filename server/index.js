@@ -3,9 +3,14 @@ import DefaultData from "./Default.js";
 import dotenv from "dotenv";
 import express from "express";
 import router from "./routes/route.js";
+import cors from 'cors';
+import bodyParser from "body-parser";
 const app = express();
 dotenv.config();
-app.use('/', Router);
+app.use(cors());
+app.use(bodyParser.json({extended:true}));
+
+app.use('/', router);
 const USERNAME= process.env.DB_UserName;
 const PASSWORD =process.env.DB_Password;
 //  const dotenv = require("dotenv");
