@@ -12,5 +12,4 @@ const ContextProvider = ({children}) => {
         </LoginContext.Provider>
     )
 }
-
 export default ContextProvider;
