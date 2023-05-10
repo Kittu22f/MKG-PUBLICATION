@@ -15,5 +15,5 @@ unique:true
     tagline:String
 }
 );
-const Product =mongoose.model('product',productSchema);
-export default Product;
+const Products =mongoose.model('product',productSchema);
+export default Products;
