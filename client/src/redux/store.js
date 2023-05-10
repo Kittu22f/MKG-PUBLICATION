@@ -3,7 +3,7 @@ import {composeWithDevTools} from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import {getproductsReducer} from './reducer/productreducer';
 const reducer =combineReducers({
-getProducts:getproductsReducer
+      getProducts:getproductsReducer
       });
 const middleware =[thunk];
 const store=createStore(
