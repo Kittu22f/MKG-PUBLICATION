@@ -1,10 +1,10 @@
 import mongoose from 'mongoose';
 const productSchema = new mongoose.Schema({
-    id:{
+id:{
 type:String,
 required:true,
 unique:true
-    } ,
+} ,
     url:String,
     detailurl: String,
     title: Object,
