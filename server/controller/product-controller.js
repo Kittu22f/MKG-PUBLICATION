@@ -19,6 +19,6 @@ export const getProducts = async (request, response) => {
 
         response.json(products);
     }catch (error) {
-
+      console.log("error in controlll",errror.message)
     }
 }

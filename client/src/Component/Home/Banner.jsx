@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { styled } from "@mui/material";
 import { bannerData } from "../data";
+
 const Image = styled('img')(
     {
         width:'100%',
@@ -39,8 +40,11 @@ dotListClass="custom-dot-list-style"
 itemClass="carousel-item-padding-40-px"
 containerClass="carousel-container"> 
 {
-bannerData.map(data=>(
+bannerData?.map(data=>(
+  <>
+  <div  key={data.id}></div>
 <Image src={data.url} alt="banner"/>
+</>
 ))
 }
 </Carousel>

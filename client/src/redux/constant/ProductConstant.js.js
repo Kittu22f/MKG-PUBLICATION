@@ -1,2 +1,2 @@
-export const GET_Product_success= 'getproductSuccess';
-export const GET_Product_Fail='getProductFail'
+export const GET_PRODUCTS= 'getproductSuccess';
+export const GET_PRODUCT_FAIL='getProductFail'
