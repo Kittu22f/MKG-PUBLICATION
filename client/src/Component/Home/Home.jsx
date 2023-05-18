@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import React,{useEffect} from 'react';
 import NavBar from "./NavBar";
 import Banner from "./Banner";
 import {Box,styled} from '@mui/material';
@@ -48,7 +48,8 @@ const Home = () => {
             <SSS products={Products}/> 
           ) : (
             <p>No products found.</p>
-          )}
+          )} 
+          
         </Component>
       </>
     );

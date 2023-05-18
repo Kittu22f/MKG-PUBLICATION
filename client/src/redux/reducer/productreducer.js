@@ -10,7 +10,6 @@
 //   }
 // };
 
-
 export const getproductsReducer = (state = { products: [] }, action) => {
   switch (action.type) {
     case 'getproductSuccess':
