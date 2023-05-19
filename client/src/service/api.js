@@ -15,3 +15,14 @@ export const authenticateSignup = async (user) => {
     console.log("Error while calling Signup API: ", error);
   }
 };
+const getAllProduct = async ()=>{
+  try{
+    let response = await axios.get("http://localhost:7000/products");
+    return response.data;
+  }
+  catch(error)
+  {
+    console.log(error);
+  }
+};
+export default getAllProduct;
